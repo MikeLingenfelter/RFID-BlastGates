@@ -1,6 +1,10 @@
 # Automated Dust Collector Blast Gate Controller
 
-A workshop automation system that uses Wiegand RFID readers and servo motors to open and close dust collector blast gates — one gate at a time — from any machine in the shop. Designed for cable runs up to 20 feet.
+This project is an experiment using AI (Claude). My background in electronics is limited, and I'm interested in exploring whether artificial intelligence can assist in designing a moderately complex project.
+
+Blast gate automation has been done many times. Generally those systems use RF remotes or detect when a tool is powered on. RF remotes work well, but as the number of tools increases, so does the number of remotes, or the number of buttons a single remote needs. Automating blast gates based on when a tool turns on can be effective, but a lot of my workflow involves turning tools off and on frequently. With a current-sensing system, every time you switch a tool off and back on the dust collector shuts down and restarts with it — that feels inefficient and adds unnecessary cycles to the collector motor. My approach is simpler: open the blast gate and turn on the dust collector when I'm ready to work, and close it when I'm done.
+
+Using an RFID card reader to open a blast gate is probably more sophisticated than the problem strictly requires. But I want to learn and grow my electronics knowledge, and this project challenges me and teaches me something new. Take this project for what it is, a playground to experiment in.
 
 ---
 
